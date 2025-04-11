@@ -1,0 +1,53 @@
+# Ambiente virtual
+venv/
+ENV/
+env/
+.venv/
+
+# Arquivos de cache Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Arquivos de log
+*.log
+
+# Banco de dados local (caso use SQLite para testes)
+*.sqlite3
+*.db
+
+# Arquivos de configuração e cache
+*.env
+*.ini
+*.cfg
+*.toml
+*.mypy_cache/
+*.pytest_cache/
+
+# VSCode
+.vscode/
+
+# PyCharm
+.idea/
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
+
+# Pydantic compilados
+*.json
+
+# Uvicorn PID/temp
+*.pid
+*.sock
+
+# Backup ou arquivos gerados temporários
+*.bak
+*.swp
+*.~*
+
+# requirements gerado automaticamente
+pip-log.txt
+
+# Jupyter (se for usar para testes ou protótipos)
+.ipynb_checkpoints
