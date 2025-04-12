@@ -4,6 +4,7 @@ ENV/
 env/
 .venv/
 
+script.sql
 # Arquivos de cache Python
 __pycache__/
 *.py[cod]
